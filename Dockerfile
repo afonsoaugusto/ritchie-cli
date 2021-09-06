@@ -1,4 +1,4 @@
-ARG BUILD_IMAGE=golang:1.13-alpine
+ARG BUILD_IMAGE=golang:1.17rc1-alpine
 FROM $BUILD_IMAGE
 
 RUN echo "7224aa97-1f94-4679-917d-9c7bb10074ab" > /etc/machine-id
